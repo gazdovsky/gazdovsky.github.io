@@ -1,0 +1,18 @@
+.samples{
+height: 50px;
+width: 50px;
+float: left;
+}
+.backSample{
+background: #ffcd72;
+}
+.dotSample{
+background: #e773ef;
+}
+.crossSample{
+background: #e86660;
+}
+.score{
+  display: initial;
+position: absolute;
+}
