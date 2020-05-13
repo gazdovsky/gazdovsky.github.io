@@ -154,7 +154,7 @@ var counter = 0
         x: crossType.position.x,
         y: crossType.position.y
       }, {
-        x: -0.1,
+        x: -0.05,
         y: 0
       });
     } else if (keys[39]) {
@@ -163,7 +163,7 @@ var counter = 0
         x: crossType.position.x,
         y: crossType.position.y
       }, {
-        x: 0.1,
+        x: 0.05,
         y: 0
       });
 
