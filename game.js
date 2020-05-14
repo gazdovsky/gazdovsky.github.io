@@ -133,7 +133,7 @@ var counter = 0
       if (pair.bodyA.label != 'dot') {
         var spd = pair.collision.depth
         // Matter.Composite.remove(engine.world, pair.bodyB) // удалить точку после касания
-        pair.bodyB.render.fillStyle =""+ changeMatterColor( pair.bodyB.render.fillStyle, {b: -1, g: -1, r:10})
+        pair.bodyB.render.fillStyle =""+ changeMatterColor( pair.bodyB.render.fillStyle, {b: -1, g: 10, r:-1})
          console.log(pair.collision.depth)
        }
       if (counter ==0 ){
